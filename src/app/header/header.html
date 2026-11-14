@@ -1,0 +1,92 @@
+
+<!-- HEADER START -->
+<header class="main-header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid px-lg-5">
+
+      <!-- BRAND LOGOS -->
+      <div class="brand-section">
+
+        <!-- Laxmi Diesels Logo -->
+        <a class="navbar-brand laxmi-brand" href="#">
+    <img
+        src="logo.png"
+        alt="Laxmi Diesels - Delighting you always"
+        class="laxmi-logo"
+    />
+</a>
+
+        <div class="brand-divider"></div>
+
+        <!-- VAYU Logo -->
+        <a href="#" class="vayu-brand">
+          <div class="vayu-symbol">
+            <span>V</span>
+          </div>
+          <div class="vayu-name">VAYU<sup>™</sup></div>
+        </a>
+
+        <div class="authorised-divider"></div>
+
+        <div class="authorised-text">
+          Authorised<br>Partner
+        </div>
+
+      </div>
+
+      <!-- MOBILE TOGGLE -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- NAVIGATION -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+
+          <li class="nav-item"  routerLinkActive="active"
+       [routerLinkActiveOptions]="{ exact: true }">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="/about">About</a>
+          </li>
+
+
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="/product">Products</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/ServiceParts">Service & Parts</a>
+          </li>
+
+          <!-- <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="/contact">Contact</a>
+          </li> -->
+
+          <li class="nav-item quote-item" routerLinkActive="active">
+            <a routerLink="/contact" class="quote-btn">
+              <span class="quote-icon">☏</span>
+              Get a Quote
+              <span class="arrow">→</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+</header>
+<!-- HEADER END -->

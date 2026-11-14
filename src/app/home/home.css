@@ -1,0 +1,394 @@
+/* Color Helpers & Fonts */
+.text-navy {
+  color: #0d47a1 !important;
+}
+
+.text-green {
+  color: #2e7d32 !important;
+}
+
+.text-orange {
+  color: #0d47a1  !important;
+}
+
+.bg-navy {
+  background-color: #0d47a1 !important;
+}
+
+.bg-green {
+  background-color: #2e7d32 !important;
+}
+
+.hero-section {
+  background-color: #ffffff;
+  min-height: 580px;
+}
+
+/* Typography Customizations */
+.subtitle-text {
+  color: #2e7d32;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+}
+
+.indicator-line {
+  width: 25px;
+  height: 3px;
+  background-color: #2e7d32;
+  vertical-align: middle;
+}
+
+.hero-title {
+  font-size: 3.25rem;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  font-weight: 900;
+  font-size: clamp(42px, 6vw, 75px);
+    line-height: 1.08;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+.hero-description {
+  color: #555555;
+  line-height: 1.5;
+}
+
+/* Buttons Styling */
+.btn-navy {
+  background-color: #0d47a1;
+  color: #ffffff;
+  border: 1px solid #0d47a1;
+  transition: all 0.25s ease-in-out;
+  background-color: #0d47a1;
+    color: #ffffff;
+    border: 1px solid #0d47a1;
+    transition: all 0.25s ease-in-out;
+    color: #fff;
+    padding: 14px 27px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0;
+    transition: .3s;
+}
+
+.btn-navy:hover {
+  background-color: #0a3880;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(13, 71, 161, 0.25);
+}
+
+.btn-outline-green {
+  background-color: #ffffff;
+  color: #2e7d32;
+  border: 1px solid #2e7d32;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn-outline-green:hover {
+  background-color: #2e7d32;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(46, 125, 50, 0.2);
+}
+
+/* Feature Icon Boxes */
+.icon-box {
+  width: 48px;
+  height: 48px;
+}
+
+/* Made in India Badge */
+.made-in-india-badge {
+  border-color: #e0e0e0 !important;
+}
+
+.badge-title {
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  line-height: 1.1;
+}
+
+.badge-sub {
+  font-size: 0.6rem;
+  letter-spacing: 0.5px;
+}
+
+/* Background Curve & Angle Graphics */
+.bg-shape-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(230, 240, 255, 0.4) 0%, rgba(220, 235, 252, 0.8) 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index: 1;
+}
+
+.bg-shape-bottom {
+  position: absolute;
+  bottom: 0;
+  left: -5%;
+  width: 40%;
+  height: 200px;
+  background: radial-gradient(circle, rgba(46, 125, 50, 0.08) 0%, rgba(13, 71, 161, 0.05) 100%);
+  border-top-right-radius: 50%;
+  z-index: 1;
+  filter: blur(20px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+  .hero-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-title {
+    font-size: 1.85rem;
+  }
+}
+
+/* slo */
+
+/* Container & Section */
+.compressor-hero-section {
+  min-height: 500px;
+  background-color: #2e7d32;
+}
+
+/* Left Panel Styling */
+.hero-left-panel {
+  background-color: #2e7d32;
+  color: #ffffff;
+  min-height: 480px;
+  padding-bottom: 5rem !important; /* Prevents text collision with controls overlay */
+}
+
+
+
+.hero-description {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 480px;
+  color: #e0e0e0;
+}
+
+/* Custom CTA Button */
+.btn-primary-custom {
+  background-color: #0d47a1;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary-custom:hover {
+  background-color: #0a3880;
+  color: #ffffff;
+}
+
+/* Controls Overlay Position & Click-through handling */
+.hero-controls-overlay {
+  z-index: 10;
+  width: 50%;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events-auto {
+  pointer-events: auto;
+}
+
+/* Reset BS5 Carousel Indicators Default Styles */
+.slide-indicators .indicator {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 2px !important;
+  background-color: #66bb6a !important;
+  border: none !important;
+  opacity: 1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.slide-indicators .indicator.active {
+  width: 14px !important;
+  background-color: #0d47a1  !important;
+}
+
+/* Custom Navigation Buttons */
+.nav-btn {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  opacity: 1;
+}
+
+.prev-btn {
+  background-color: #388e3c;
+}
+
+.next-btn {
+  background-color: #0d47a1 ;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+/* Right Panel & Image */
+.hero-right-panel {
+  background: radial-gradient(circle at 70% 30%, #eef0f2 0%, #c8ccce 100%);
+  min-height: 480px;
+  padding: 2rem;
+}
+
+.hero-product-img {
+  max-height: 400px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.15));
+}
+
+/* Responsive Overrides */
+@media (max-width: 991.98px) {
+  .hero-controls-overlay {
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .hero-left-panel {
+    min-height: auto;
+  }
+
+  .hero-right-panel {
+    min-height: 380px;
+  }
+}
+
+/* Section Background */
+.valued-services-section {
+  background-color: #fafafa;
+  min-height: 500px;
+}
+
+/* Titles Styling */
+.sub-title {
+  color: #0d47a1 ;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.main-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #111111;
+}
+
+/* Card Outer & Shadow Structure */
+.service-card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Card Number Header */
+.card-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e0e0e0;
+  line-height: 1;
+  user-select: none;
+}
+
+/* Icons */
+.card-icon {
+  color: #0d47a1 ;
+}
+
+/* Card Content */
+.card-title {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: #111111;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #666666;
+}
+
+/* Read More Links */
+.read-more-link {
+  font-size: 0.95rem;
+  color: #111111;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+.read-more-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0d47a1 ;
+  transition: width 0.2s ease;
+}
+
+.read-more-link:hover {
+  color: #0d47a1 ;
+}
+
+/* Scroll To Top Button */
+.scroll-to-top-btn {
+  width: 42px;
+  height: 42px;
+  background-color: #0d47a1 ;
+  box-shadow: 0 4px 12px rgba(255, 42, 42, 0.3);
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.scroll-to-top-btn:hover {
+  background-color: #0d47a1 ;
+  transform: translateY(-2px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+  .main-title {
+    font-size: 1.85rem;
+  }
+}

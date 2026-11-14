@@ -1,0 +1,469 @@
+
+.custom-navbar {
+
+  padding: 18px 0;
+  border-bottom: 1px solid #242424;
+}
+
+.brand-icon {
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  background: #ff5a0a;
+  color: #000;
+  font-size: 25px;
+  font-weight: 900;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.brand-name {
+  font-size: 21px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.brand-name span {
+  color: #ff5a0a;
+}
+
+.navbar-nav {
+  gap: 25px;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ff5a0a !important;
+}
+
+.contact-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 11px 27px;
+  border-radius: 0;
+}
+
+.contact-btn:hover {
+  background: #ff5a0a;
+  border-color: #ff5a0a;
+  color: #fff;
+}
+
+/* HERO */
+
+.about-hero {
+  padding: 95px 0;
+  background:
+    radial-gradient(circle at 80% 40%, #f8f8f8 0%, transparent 40%),
+    #e6e6e6;
+  overflow: hidden;
+}
+
+.section-tag {
+  color: #0d47a1;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 {
+  font-size: clamp(36px, 5vw, 64px);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 25px;color: #2e7d32 ;
+}
+
+.hero-content h1 span {
+  display: block;
+  color: #0d47a1 ;
+}
+
+.hero-content p {
+  color: #343434;
+  font-size: 17px;
+  line-height: 1.9;
+  max-width: 550px;
+  margin-bottom: 30px;
+}
+
+.orange-btn {
+  background: #0d47a1 ;
+  color: #fff;
+  padding: 14px 27px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 0;
+  transition: .3s;
+}
+
+.orange-btn:hover {
+  background: #fff;
+  color: #0d47a1 ;
+}
+
+.orange-btn span {
+  margin-left: 15px;
+}
+
+.hero-image {
+  position: relative;
+  height: 430px;
+  background: #222;
+  overflow: hidden;
+}
+
+.hero-image img,
+.company-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.image-label {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 13px 18px;
+  background: #080808e8;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.orange-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background: #0d47a1 ;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/* ABOUT COMPANY */
+
+.company-section {
+  background: #ffffff;
+  padding: 100px 0;
+}
+
+.company-image {
+  position: relative;
+  height: 450px;
+  background: #292929;
+}
+
+.experience-box {
+  position: absolute;
+  right: -15px;
+  bottom: 25px;
+  background: #0d47a1 ;
+  color: #fff;
+  padding: 22px 30px;
+  min-width: 170px;
+}
+
+.experience-box h2 {
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.experience-box p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.section-heading {
+  font-size: clamp(29px, 3.5vw, 42px);
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+
+.section-heading span {
+  color: #0d47a1 ;
+}
+
+.description {
+  color: #aaa;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.feature-list {
+  margin-top: 25px;
+  display: grid;
+  gap: 15px;
+  color: #000000;
+  font-size: 14px;
+}
+
+.feature-list div {
+  transition: .3s;
+}
+
+.feature-list div:hover {
+  color: #0d47a1 ;
+}
+
+/* STATISTICS */
+
+.stats-section {
+  background: #2e7d32  ;
+  padding: 55px 0;
+}
+
+.stats-section h2 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 5px;color:#fff;
+}
+
+.stats-section p {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;color:#fff;
+}
+
+/* MISSION */
+
+.mission-section {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.info-card {
+  height: 100%;
+  padding: 40px;
+  background: #2e7d32;
+  border: 1px solid #154517;
+  transition: .3s;
+}
+
+.info-card:hover {
+  border-color: #fdfeff ;
+  transform: translateY(-7px);
+}
+
+.info-icon {
+  font-size: 45px;
+  font-weight: 800;
+  color: #ffffff ;
+  margin-bottom: 20px;
+}
+
+.info-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;color: #fff;
+}
+
+.info-card p {
+  color: #fff;
+  line-height: 1.9;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* WHY CHOOSE US */
+
+.why-section {
+  background: #e2e2e2;
+  padding: 100px 0;
+}
+
+.strength-card {
+  height: 100%;
+  padding: 30px 22px;
+  background: #2e7d32;
+  border-bottom: 3px solid transparent;
+  transition: .3s;
+}
+
+.strength-card:hover {
+  border-color: #0d47a1 ;
+  transform: translateY(-7px);
+}
+
+.strength-icon {
+  font-size
+: 27px;
+    color: #0d47a1;
+    margin-bottom: 20px;
+    background: aliceblue;
+    width: 40px;
+    text-align: center;
+    border-radius: 22px;
+    height: 40px;
+}
+
+.strength-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;color:#fff;
+}
+
+.strength-card p {
+  color: #fefdfd;
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* CTA */
+
+.cta-section {
+  padding: 75px 0;
+  background:
+    linear-gradient(90deg, #ffffff, #f9f8f8);
+}
+
+.cta-section h2 {
+  font-size: clamp(25px, 3vw, 38px);
+  font-weight: 800;
+}
+
+.cta-section p {
+  color: #bbb;
+  margin: 0;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 65px 0 20px;
+  background: #050505;
+}
+
+.footer h5 {
+  color: #0d47a1 ;
+  font-size: 16px;
+  margin-bottom: 22px;
+  font-weight: 700;
+}
+
+.footer a:not(.navbar-brand) {
+  display: block;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: 13px;
+  transition: .3s;
+}
+
+.footer a:hover {
+  color: #0d47a1 ;
+}
+
+.footer-text,
+.footer p {
+  color: #999;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.footer hr {
+  border-color: #444;
+  margin-top: 35px;
+}
+
+.copyright {
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    gap: 5px;
+    padding: 15px 0;
+  }
+
+  .contact-btn {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .about-hero {
+    padding: 65px 0;
+  }
+
+  .hero-image {
+    margin-top: 45px;
+    height: 350px;
+  }
+
+  .company-image {
+    height: 380px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-hero,
+  .company-section,
+  .mission-section,
+  .why-section {
+    padding: 60px 0;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-image {
+    height: 260px;
+  }
+
+  .company-image {
+    height: 280px;
+  }
+
+  .experience-box {
+    right: -10px;
+    padding: 15px 20px;
+  }
+
+  .experience-box h2 {
+    font-size: 32px;
+  }
+
+  .info-card {
+    padding: 27px;
+  }
+
+  .stats-section {
+    padding: 40px 0;
+  }
+
+  .stats-section h2 {
+    font-size: 32px;
+  }
+
+  .cta-section {
+    padding: 55px 0;
+  }
+
+  .cta-section .orange-btn {
+    margin-top: 25px;
+  }
+
+  .footer {
+    padding-top: 45px;
+  }
+}
