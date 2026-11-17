@@ -14,16 +14,17 @@
         alt="Laxmi Diesels - Delighting you always"
         class="laxmi-logo"
     />
-</a>
+       </a>
 
         <div class="brand-divider"></div>
 
         <!-- VAYU Logo -->
         <a href="#" class="vayu-brand">
-          <div class="vayu-symbol">
-            <span>V</span>
-          </div>
-          <div class="vayu-name">VAYU<sup>™</sup></div>
+        <img
+        src="Vayu.png" width="100"
+        alt="Laxmi Diesels - Delighting you always"
+        class="laxmi-logo"
+    />
         </a>
 
         <div class="authorised-divider"></div>
@@ -50,39 +51,59 @@
       <!-- NAVIGATION -->
       <div class="collapse navbar-collapse" id="mainNavbar">
 
-        <ul class="navbar-nav ms-auto align-items-lg-center">
+      
+<ul class="navbar-nav ms-auto align-items-lg-center">
 
-          <li class="nav-item"  routerLinkActive="active"
+  <!-- HOME -->
+  <li class="nav-item">
+    <a class="nav-link"
+       routerLink="/"
+       routerLinkActive="active"
        [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
+      Home
+    </a>
+  </li>
 
-          <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" routerLink="/about">About</a>
-          </li>
+  <!-- ABOUT -->
+  <li class="nav-item">
+    <a class="nav-link"
+       routerLink="/about"
+       routerLinkActive="active">
+      About
+    </a>
+  </li>
 
+  <!-- PRODUCTS -->
+  <li class="nav-item">
+    <a class="nav-link"
+       routerLink="/product"
+       routerLinkActive="active">
+      Products
+    </a>
+  </li>
 
-          <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" routerLink="/product">Products</a>
-          </li>
+  <!-- SERVICE -->
+  <li class="nav-item">
+    <a class="nav-link"
+       routerLink="/ServiceParts"
+       routerLinkActive="active">
+      Service & Parts
+    </a>
+  </li>
 
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/ServiceParts">Service & Parts</a>
-          </li>
+  <!-- CONTACT -->
+  <li class="nav-item quote-item">
+    <a routerLink="/contact"
+       routerLinkActive="active"
+       class="quote-btn">
+      <span class="quote-icon">☏</span>
+      Get a Quote
+      <span class="arrow">→</span>
+    </a>
+  </li>
 
-          <!-- <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" routerLink="/contact">Contact</a>
-          </li> -->
+</ul>
 
-          <li class="nav-item quote-item" routerLinkActive="active">
-            <a routerLink="/contact" class="quote-btn">
-              <span class="quote-icon">☏</span>
-              Get a Quote
-              <span class="arrow">→</span>
-            </a>
-          </li>
-
-        </ul>
 
       </div>
 
