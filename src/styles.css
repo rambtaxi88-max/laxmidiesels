@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+/* 1. Import Poppins at the top of your CSS file */
+@import url('https://googleapis.com');
+
+/* 2. Apply it globally to the whole page */
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Or apply it to specific classes/headings */
+h1 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700;
+}
