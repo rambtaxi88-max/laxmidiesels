@@ -114,7 +114,15 @@ a {
   font-size: clamp(40px, 5vw, 67px);
   font-weight: 800;
   line-height: 1.12;
-  letter-spacing: -1.5px;color:#0d47a1
+  letter-spacing: -1.5px;color:#0d47a1;
+  font-size: 3.25rem; 
+ font-size: 3.25rem; 
+    line-height: 1.1;
+    letter-spacing: -.5px;
+  
+    line-height: 1.08;
+
+    letter-spacing: -2px;
 }
 
 .hero-content h1 span {

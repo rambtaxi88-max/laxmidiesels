@@ -78,10 +78,15 @@
 }
 
 .hero-content h1 {
-  font-size: clamp(36px, 5vw, 64px);
-  font-weight: 800;
-  line-height: 1.15;
-  margin-bottom: 25px;color: #2e7d32 ;
+font-size: 3.25rem; 
+ font-size: 3.25rem; 
+    line-height: 1.1;
+    letter-spacing: -.5px;
+  
+    line-height: 1.08;
+
+    letter-spacing: -2px;
+  color: #2e7d32 ;
 }
 
 .hero-content h1 span {
@@ -92,19 +97,24 @@
 .hero-content p {
   color: #343434;
   font-size: 17px;
-  line-height: 1.9;
+  line-height: 1.6;
   max-width: 550px;
   margin-bottom: 30px;
 }
 
 .orange-btn {
-  background: #0d47a1 ;
-  color: #fff;
-  padding: 14px 27px;
-  font-size: 15px;
-  font-weight: 600;
-  border-radius: 0;
-  transition: .3s;
+     background-color: #0d47a1;
+    color: #ffffff;
+    border: 1px solid #0d47a1;
+    transition: all 0.25s ease-in-out;
+    background-color: #0d47a1;
+    color: #ffffff;
+    border: 1px solid #0d47a1;
+    transition: all 0.25s ease-in-out;
+    color: #fff;
+    padding: 14px 27px;
+    border-radius: 0;
+    transition: .3s;
 }
 
 .orange-btn:hover {
@@ -187,9 +197,9 @@
 
 .section-heading {
   font-size: clamp(29px, 3.5vw, 42px);
-  font-weight: 800;
+  /* font-weight: 800; */
   line-height: 1.3;
-  margin-bottom: 25px;
+  margin-bottom: 25px;color: #2e7d32;
 }
 
 .section-heading span {
@@ -197,9 +207,9 @@
 }
 
 .description {
-  color: #aaa;
+  color: #343434;
   font-size: 15px;
-  line-height: 1.9;
+  line-height: 1.6;
 }
 
 .feature-list {
@@ -265,14 +275,14 @@
 }
 
 .info-card h3 {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 34px;
+  
   margin-bottom: 15px;color: #fff;
 }
 
 .info-card p {
   color: #fff;
-  line-height: 1.9;
+  line-height: 1.6;
   font-size: 14px;
   margin: 0;
 }
@@ -332,11 +342,11 @@
 
 .cta-section h2 {
   font-size: clamp(25px, 3vw, 38px);
-  font-weight: 800;
+color:#2e7d32
 }
 
 .cta-section p {
-  color: #bbb;
+  color: #343434;
   margin: 0;
 }
 

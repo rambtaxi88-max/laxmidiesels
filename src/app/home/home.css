@@ -39,13 +39,13 @@
 }
 
 .hero-title {
-  font-size: 3.25rem;
-  line-height: 1.1;
-  letter-spacing: -0.5px;
-  font-weight: 900;
-  font-size: clamp(42px, 6vw, 75px);
+font-size: 3.25rem; 
+ font-size: 3.25rem; 
+    line-height: 1.1;
+    letter-spacing: -.5px;
+  
     line-height: 1.08;
-    font-weight: 800;
+
     letter-spacing: -2px;
 }
 
@@ -66,8 +66,7 @@
     transition: all 0.25s ease-in-out;
     color: #fff;
     padding: 14px 27px;
-    font-size: 15px;
-    font-weight: 600;
+ 
     border-radius: 0;
     transition: .3s;
 }
@@ -82,7 +81,7 @@
   background-color: #ffffff;
   color: #2e7d32;
   border: 1px solid #2e7d32;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;    padding: 12px 27px;
 }
 
 .btn-outline-green:hover {
@@ -180,12 +179,23 @@
   background-color: #0d47a1;
   color: #ffffff;
   border: none;
-  padding: 0.75rem 1.5rem;
-  font-size: 0.95rem;
+  
   font-weight: 500;
   border-radius: 2px;
   text-decoration: none;
   transition: background-color 0.2s ease-in-out;
+  background-color: #0d47a1;
+    color: #ffffff;
+    border: 1px solid #0d47a1;
+    transition: all 0.25s ease-in-out;
+    background-color: #0d47a1;
+    color: #ffffff;
+    border: 1px solid #0d47a1;
+    transition: all 0.25s ease-in-out;
+    color: #fff;
+    padding: 14px 27px;
+    border-radius: 0;
+    transition: .3s;
 }
 
 .btn-primary-custom:hover {
@@ -240,7 +250,7 @@
 }
 
 .prev-btn {
-  background-color: #388e3c;
+  background-color: #0d47a1;
 }
 
 .next-btn {
