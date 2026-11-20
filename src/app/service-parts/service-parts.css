@@ -112,7 +112,7 @@ a {
 
 .hero-content h1 {
   font-size: clamp(40px, 5vw, 67px);
-  font-weight: 800;
+
   line-height: 1.12;
   letter-spacing: -1.5px;color:#0d47a1;
   font-size: 3.25rem; 
@@ -131,9 +131,9 @@ a {
 }
 
 .hero-content p {
-  color: #aaa;
+  color: #000000;
   font-size: 15px;
-  line-height: 1.9;
+  line-height: 1.6;
   max-width: 560px;
   margin: 25px 0 30px;
 }
@@ -149,10 +149,22 @@ a {
   color: #fff;
   border-radius: 0;
   padding: 14px 25px;
-  font-size: 12px;
+
   font-weight: 700;
   letter-spacing: 1px;
   transition: .3s;
+  background-color: #0d47a1;
+    color: #ffffff;
+    border: 1px solid #0d47a1;
+    transition: all 0.25s ease-in-out;
+    background-color: #0d47a1;
+    color: #ffffff;
+    border: 1px solid #0d47a1;
+    transition: all 0.25s ease-in-out;
+    color: #fff;
+    padding: 14px 27px;
+    border-radius: 0;
+    transition: .3s;
 }
 
 .orange-btn:hover {
@@ -165,9 +177,9 @@ a {
   color: #0d47a1;
   border-radius: 0;
   padding: 14px 25px;
-  font-size: 12px;
+
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 1px;padding: 14px 27px;
 }
 
 .outline-btn:hover {
@@ -219,7 +231,7 @@ a {
 
 .section-title {
   font-size: clamp(29px, 4vw, 45px);
-  font-weight: 800;
+
   line-height: 1.25;
   margin-bottom: 20px;color:#2e7d32
 }
@@ -232,7 +244,7 @@ a {
 .section-description {
   color: #000000;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.6;
 }
 
 /* SERVICES */
@@ -252,7 +264,7 @@ a {
 
 .section-heading h2 {
   font-size: 43px;
-  font-weight: 800;color: #2e7d32;
+  color: #2e7d32;
 }
 
 .section-heading h2 span {
@@ -310,7 +322,7 @@ a {
 
 .service-card p {
  
-color: #c6c4c4;
+color: #ffffff;
     font-size: 16px;
     /* line-height: 1.9; */
     min-height: 72px;
@@ -479,14 +491,14 @@ color: #c6c4c4;
 }
 
 .process-card h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;color: #fff;
 }
 
 .process-card p {
   color: #fff;
-  font-size: 12px;
-  line-height: 1.8;
+      font-size: 16px;
+    line-height: 1.6;
   margin: 10px 0 0;
 }
 
