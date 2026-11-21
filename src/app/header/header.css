@@ -72,7 +72,7 @@
 
 /* DIVIDER */
 .brand-divider {
-  width: 2px;
+  width: 1px;
   height: 75px;
   background: #d9dce1;
   margin: 0 30px;
@@ -115,10 +115,10 @@
 }
 
 .authorised-divider {
-  width: 2px;
-  height: 48px;
-  background: #aeb5c0;
-  margin: 0 18px;
+width: 1px;
+    height: 75px;
+    background: #d9dce1;
+    margin: 0 30px;
 }
 
 .authorised-text {
