@@ -56,7 +56,7 @@
 
   <!-- HOME -->
   <li class="nav-item">
-    <a class="nav-link"
+    <a class="nav-link" (click)="closeMenu()"
        routerLink="/"
        routerLinkActive="active"
        [routerLinkActiveOptions]="{ exact: true }">
@@ -65,7 +65,7 @@
   </li>
 
   <!-- ABOUT -->
-  <li class="nav-item">
+  <li class="nav-item" (click)="closeMenu()">
     <a class="nav-link"
        routerLink="/about"
        routerLinkActive="active">
@@ -74,7 +74,7 @@
   </li>
 
   <!-- PRODUCTS -->
-  <li class="nav-item">
+  <li class="nav-item" (click)="closeMenu()">
     <a class="nav-link"
        routerLink="/product"
        routerLinkActive="active">
@@ -83,7 +83,7 @@
   </li>
 
   <!-- SERVICE -->
-  <li class="nav-item">
+  <li class="nav-item" (click)="closeMenu()">
     <a class="nav-link"
        routerLink="/ServiceParts"
        routerLinkActive="active">

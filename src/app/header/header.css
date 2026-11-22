@@ -359,9 +359,32 @@ width: 1px;
 }
 
 /* MOBILE ACTIVE */
+
+
+/* STICKY HEADER */
+.main-header {
+  width: 100%;
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* NAVBAR */
+.main-header .navbar {
+  min-height: 135px;
+  padding: 10px 0;
+}
 @media (max-width: 991px) {
   .navbar-nav .nav-link.active::after {
     display: none;
+  }
+
+  .laxmi-logo{
+    width:100px
   }
 
   .navbar-nav .nav-link.active {
