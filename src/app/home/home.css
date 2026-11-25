@@ -402,3 +402,76 @@ font-size: 3.25rem;
     font-size: 1.85rem;
   }
 }
+
+/* CTA */
+
+.product-cta {
+  padding: 75px 0;
+  background: linear-gradient(110deg, #fff, #fff);
+  border-top: 1px solid #8d8d8d;
+}
+
+.product-cta h2 {
+  font-size: clamp(27px, 3.5vw, 40px);
+  color:#0d47a1;
+}
+
+.product-cta p {
+  color: #000000;
+  font-size: 16px;
+}
+
+/* FOOTER */
+
+.vayu-footer {
+  background: #050505;
+  padding: 65px 0 20px;
+}
+
+.vayu-footer h5 {
+  color: #ff570a;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.vayu-footer p,
+.vayu-footer a:not(.navbar-brand) {
+  color: #999;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.vayu-footer a:not(.navbar-brand) {
+  display: block;
+  margin-bottom: 10px;
+  transition: .3s;
+}
+
+.vayu-footer a:hover {
+  color: #ff570a;
+}
+
+.vayu-footer hr {
+  border-color: #333;
+  margin-top: 40px;
+}
+
+.copyright {
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+  padding-top: 12px;
+}
+
+.orange-btn {
+    background: #fff;
+    color: #0d47a1;
+    border-radius: 0;
+    padding: 15px 28px;
+    border: 1px solid #0d47a1;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: .3s;
+}
